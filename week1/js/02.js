@@ -1,1 +1,0 @@
-alert(hi! i am 02);
