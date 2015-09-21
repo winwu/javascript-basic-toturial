@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // 產品列表
+    var product = [
+      {
+        name: '蘋果汁',
+        price: 199,
+        num: 12
+      },
+      {
+        name: '柳橙汁',
+        price: 129,
+        num: 5
+      },
+      {
+        name: '蔬果汁',
+        price: 105,
+        num: 18
+      },
+      {
+        name: '維他命A果汁',
+        price: 128,
+        num: 2
+      },
+      {
+        name: '蘿蔔蘋果汁',
+        price: 150,
+        num: 1
+      }
+    ];
+
+    var storeItemHtml = '';
+
+    for(var i = 0; i < product.length; i++)
+    {
+      // 取得每種果汁的名字
+      console.log(product[i].name);
+      storeItemHtml += '品項:    ' + product[i].name + '<br/>'
+                      + '價位:   ' + product[i].name + '<br/>'
+                      + '剩餘數量:'+ product[i].num + '<br/>'
+                      + '<hr/>';
+    }
+
+    // 迴圈結束後，把資料塞到畫面
+    $('#product').html(storeItemHtml);
+  });
+  </script>
+</head>
+<body>
+
+<h1>歡迎來到___果汁店</h1>
+  
+  <div id="product">
+    
+  
+  </div>
+
+</body>
+</html>
