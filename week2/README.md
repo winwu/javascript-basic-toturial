@@ -149,25 +149,25 @@ myDate.getDay();
 所有瀏覽器都有這個 window object，他是內建的。
 window 有很多屬性跟 function 可以使用，都跟瀏覽器有關。
 
-你也可以試試看這些 window 的 function 或是 method，看看會發生什麼是:
+你也可以試試看這些 window 的 function 或是 method，看看會發生什麼事:
 
-```
+```js
 window.open();
 ```
 
-```
+```js
 window.close();
 ```
 
-```
+```js
 window.innerHeight
 ```
 
-```
+```js
 window.innerWidth
 ```
 
-```
+```js
 window.location
 //  window.location.hostname
 //  window.location.pathname
@@ -175,12 +175,12 @@ window.location
 //  window.location.protocol
 ```
 
-```
+```js
 window.history.back()
 window.history.forward()
 ```
 
-```
+```js
 window.navigator.language;
 window.navigator.languages;
 ```
