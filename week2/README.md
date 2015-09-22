@@ -185,6 +185,13 @@ window.navigator.language;
 window.navigator.languages;
 ```
 
+## Optional Homework:
+* [javascrip 時間顯示器](http://www.w3school.com.cn/tiy/t.asp?f=jsrf_date_timing_clock)
+回家有空的時候看看這段程式碼，試著去理解它。
+* [coursera](https://www.coursera.org/learn/html-css-javascript)
+* [coursera](https://www.coursera.org/learn/website-coding)
+* https://www.codecademy.com/courses/javascript-beginner-en-qDwp0/0/1?curriculum_id=506324b3a7dffd00020bf661
+
 
 
 
