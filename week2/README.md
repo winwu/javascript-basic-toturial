@@ -1,6 +1,6 @@
 ## Alert
 
-```javascript
+```
 window.alert('alert message');
 ```
 
@@ -17,7 +17,7 @@ window.alert('alert message');
 
 ## Confirm
 
-｀``javascript
+｀``js
 confirm('confirm question?');
 ```
 
@@ -28,7 +28,7 @@ confirm('confirm question?');
 
 ## Prompt
 
-```javascript
+```js
 prompt('ask something and we expect user give us answer');
 ```
 
@@ -46,7 +46,7 @@ prompt('ask something and we expect user give us answer');
 
 * if 
 
-```javascript
+```js
 
 // isEatLunch 儲存是否吃過中餐
 var isEatLunch = true;
@@ -59,7 +59,7 @@ if (isEatLunch) {
 
 * if...else 
 
-```javascript
+```js
 
 // isEatLunch 儲存是否吃過中餐
 var isEatLunch = true;
@@ -74,7 +74,7 @@ if (isEatLunch) {
 
 * if... else if ... else
 
-```javascript
+```js
 
 var today = 'Monday';
 
@@ -93,7 +93,7 @@ if (today == 'Sunday')
 * switch
 switch  在撰寫時，要小心 break 一定要記得加，否則程式就不會停止在該區段，而會一直往下走。
 
-```javascript
+```js
 switch(n)
 {
   case 1:
