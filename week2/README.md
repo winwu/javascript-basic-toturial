@@ -39,7 +39,7 @@ prompt('ask something and we expect user give us answer');
 
 * if: 當一條件成立時，就執行代碼。
 * if...else: 當一條件成立時，就執行代碼，否則則執行另外一段程式碼。
-* if...else if....else:  使用该语句来选择多个代码块之一来执行  不斷的判斷是否符合條件，若符合就執行該段程式碼，否則則會執行最後的 else 區段。
+* if...else if....else: 不斷的判斷是否符合條件，若符合就執行該段程式碼，否則則會執行最後的 else 區段。
 * switch: 跟前者很像，很多情況來判斷，但只會選擇一種，
 
 ### 示範
