@@ -107,4 +107,84 @@ switch(n)
 }
 ```
 
+---
+
+## JavaScript 的日期 Date
+
+如何使用 Date 物件? 你必須要 new  一個 JavaScript 內建的 Date 物件，然後把這個 new 起來的日期存在一個變數裡。
+
+```js
+var myDate = new Date();
+```
+
+當你把日期存到一個變數後，便可以利用這個儲存起來的變數，操作日期的一些函式，Example:
+
+```js
+// new 一個 Date 物件
+var myDate = new Date();
+
+// 取得年份
+myDate.getFullYear();
+
+// 將日期轉換為 UTC 字串
+myDate.toUTCString();
+
+// 今天幾號
+myDate.getDate();
+
+// 取得分鐘
+myDate.getMinutes()
+
+// 取得小時
+myDate.getHours()
+
+// 取得星期
+myDate.getDay();
+
+```
+
+
+### window 瀏覽器對象(Object)
+瀏覽器對象模型 Browser Object Model。
+所有瀏覽器都有這個 window object，他是內建的。
+window 有很多屬性跟 function 可以使用，都跟瀏覽器有關。
+
+你也可以試試看這些 window 的 function 或是 method，看看會發生什麼是:
+
+```
+window.open();
+```
+
+```
+window.close();
+```
+
+```
+window.innerHeight
+```
+
+```
+window.innerWidth
+```
+
+```
+window.location
+//  window.location.hostname
+//  window.location.pathname
+//  window.location.port
+//  window.location.protocol
+```
+
+```
+window.history.back()
+window.history.forward()
+```
+
+```
+window.navigator.language;
+window.navigator.languages;
+```
+
+
+
 
