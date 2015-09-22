@@ -1,6 +1,6 @@
 ## Alert
 
-```
+```js
 window.alert('alert message');
 ```
 
@@ -17,7 +17,7 @@ window.alert('alert message');
 
 ## Confirm
 
-｀``js
+```js
 confirm('confirm question?');
 ```
 
