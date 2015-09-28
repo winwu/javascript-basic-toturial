@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event 2</title>
+</head>
+<body>
+
+<a id="link" href="http://google.com" alt="這是一個測試連結">測試連結</a>
+
+<script>
+  var link = document.querySelector('#link');
+  
+  // 監聽 link 的 on click 事件
+  link.addEventListener('click', function () {
+    console.log(this.href); // 顯示 "http://google.com"
+  });
+
+  // 監聽 link 的 mouseover 事件
+  link.addEventListener('mouseover', function() {
+    console.log('over');
+    document.body.style.backgroundColor = "red";
+  });
+
+  // 監聽 link 的 mouseout 事件
+  link.addEventListener('mouseout', function() {
+    console.log('out');
+    document.body.style.backgroundColor = "yellow";
+  });
+</script>
+  
+</body>
+</html>

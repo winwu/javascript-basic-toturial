@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event 1</title>
+</head>
+<body>
+
+<a id="link" href="http://google.com" alt="這是一個測試連結">測試連結</a>
+
+<script>
+  var link = document.getElementById('link');
+  link.onclick = function () {
+    console.log(this.href); // 顯示 "http://google.com"
+  }
+</script>
+  
+</body>
+</html>
