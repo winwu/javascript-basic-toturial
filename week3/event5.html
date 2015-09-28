@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form submit</title>
+</head>
+<body>
+
+<form id="frm" action="" name="login-frm">
+  <h1>Login</h1>
+  <input type="text" name="username" placeholder="請輸入姓名">
+  <input type="password" name="password">
+  <input type="submit" id="mybutton">
+</form>
+
+<script>
+  var form = document.getElementById('frm');
+  var submitButton = document.getElementById('mybutton');
+  
+  submitButton.addEventListener('click', function(e){
+    e.preventDefault();
+    
+    console.log('送出表單!');
+    
+    // 檢查有沒有空值
+    var username = document.forms["login-frm"]["username"].value;
+    var password = document.forms["login-frm"]["password"].value;
+    
+    if (username == null || username == "") {
+        alert("username 必填");
+        return false;
+    }
+
+    if (password == null || password == "") {
+        alert("password 必填");
+        return false;
+    }
+
+    // 如果 username, password 都有填，就送出表單
+    form.submit();
+  });
+
+</script>
+
+</body>
+</html>
