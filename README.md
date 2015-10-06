@@ -21,6 +21,7 @@
   * switch
 
 ## Week 3（9/29 19:00-22:00）
+[講義連結](https://speakerdeck.com/winwu/6-2)
 * JavaScript Function
 * JavaScript Event
 
