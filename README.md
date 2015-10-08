@@ -26,6 +26,8 @@
 * JavaScript Event
 
 ## Week 4（10/6 19:00-22:00）
+[講義連結](https://speakerdeck.com/winwu/6-3)
+* JavaScript Array
 * JavaScript Object
 * JSON 格式介紹
 
