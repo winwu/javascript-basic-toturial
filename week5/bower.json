@@ -1,0 +1,16 @@
+{
+  "name": "week5",
+  "version": "0.0.0",
+  "homepage": "https://github.com/winwu/javascript-basic-toturial",
+  "authors": [
+    "winwu <yiyingwu.1990@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
